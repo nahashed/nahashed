@@ -1,6 +1,6 @@
 # Edgar / nahashed
 
-[Telegram](https://t.me/nahashed) ·
+[Website](https://nahashed.com) · [Telegram](https://t.me/nahashed) ·
 [LinkedIn](https://www.linkedin.com/in/nahashed)
 
 <picture>
