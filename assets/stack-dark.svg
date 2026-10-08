@@ -1,23 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="222"
-  viewBox="0 0 760 222" role="img" aria-labelledby="title description">
-  <title id="title">Languages &amp; technologies</title>
-  <desc
-    id="description">Aggregated code volume and detected technologies. Private project details are not published.</desc>
-  <rect x="0.5" y="0.5" width="759" height="221" rx="14" fill="#0d1117"
-    stroke="#30363d" />
-  <rect x="28" y="28" width="4" height="24" rx="2" fill="#ed2207" />
-  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"
-    fill="#f0f3f6">
-    <text x="44" y="47" font-size="22"
-      font-weight="600">Languages &amp; technologies</text>
-    <text x="28" y="75" font-size="13"
-      fill="#9da7b3">CODE VOLUME / OWNED PROJECTS</text>
-    <text x="28" y="133" font-size="15"
-      fill="#9da7b3">First snapshot pending.</text>
-    <path d="M28 146H732" stroke="#30363d" />
-    <text x="28" y="172" font-size="12"
-      fill="#9da7b3">DETECTED TECHNOLOGIES</text>
-    <text x="28" y="198" font-size="16"
-      font-weight="500">Awaiting project configuration</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="434" viewBox="0 0 760 434" role="img" aria-labelledby="title description">
+<title id="title">Languages &amp; technologies</title>
+<desc id="description">Aggregated code volume and detected technologies. Private project details are not published.</desc>
+<rect x="0.5" y="0.5" width="759" height="433" rx="14" fill="#0d1117" stroke="#30363d"/>
+<rect x="28" y="28" width="4" height="24" rx="2" fill="#ed2207"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#f0f3f6">
+<text x="44" y="47" font-size="22" font-weight="600">Languages &amp; technologies</text>
+<text x="28" y="75" font-size="13" fill="#9da7b3">CODE VOLUME / OWNED PROJECTS</text>
+<rect x="28.000" y="96" width="565.588" height="8" fill="#ed2207"/>
+<circle cx="33" cy="128" r="4" fill="#ed2207"/>
+<text x="48" y="133" font-size="15">TypeScript</text>
+<text x="732" y="133" text-anchor="end" font-size="15" fill="#9da7b3">80.3%</text>
+<rect x="593.588" y="96" width="76.301" height="8" fill="#db775d"/>
+<circle cx="33" cy="158" r="4" fill="#db775d"/>
+<text x="48" y="163" font-size="15">HTML</text>
+<text x="732" y="163" text-anchor="end" font-size="15" fill="#9da7b3">10.8%</text>
+<rect x="669.889" y="96" width="38.029" height="8" fill="#bb958b"/>
+<circle cx="33" cy="188" r="4" fill="#bb958b"/>
+<text x="48" y="193" font-size="15">JavaScript</text>
+<text x="732" y="193" text-anchor="end" font-size="15" fill="#9da7b3">5.4%</text>
+<rect x="707.918" y="96" width="22.772" height="8" fill="#989fa9"/>
+<circle cx="33" cy="218" r="4" fill="#989fa9"/>
+<text x="48" y="223" font-size="15">CSS</text>
+<text x="732" y="223" text-anchor="end" font-size="15" fill="#9da7b3">3.2%</text>
+<rect x="730.690" y="96" width="1.310" height="8" fill="#69798b"/>
+<circle cx="33" cy="248" r="4" fill="#69798b"/>
+<text x="48" y="253" font-size="15">Shell</text>
+<text x="732" y="253" text-anchor="end" font-size="15" fill="#9da7b3">0.2%</text>
+<path d="M28 266H732" stroke="#30363d"/>
+<text x="28" y="292" font-size="12" fill="#9da7b3">DETECTED TECHNOLOGIES</text>
+<text x="28" y="318" font-size="16" font-weight="500">Deno / grammY / SQLite / PostgreSQL</text>
+<text x="28" y="356" font-size="12" fill="#9da7b3">FROM PROJECT TOPICS</text>
+<text x="28" y="382" font-size="15">CSS / Deno / GitHub Actions / grammY / HTML / NGINX / Node.js / SQLite</text>
+<text x="28" y="407" font-size="15">TypeScript</text>
+</g></svg>
