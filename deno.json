@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "check": "deno fmt --check && deno lint && deno check scripts/profile.ts tests/profile_test.ts",
+    "test": "deno test --allow-read --allow-write tests/",
+    "update": "deno run --allow-env=PROFILE_READ_TOKEN --allow-net=api.github.com --allow-read=assets --allow-write=assets scripts/profile.ts"
+  },
+  "fmt": {
+    "exclude": ["AGENTS.md", "CLAUDE.md", "GEMINI.md", "assets", ".dev"]
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="222"
+  viewBox="0 0 760 222" role="img" aria-labelledby="title description">
+  <title id="title">Languages &amp; technologies</title>
+  <desc
+    id="description">Aggregated code volume and detected technologies. Private project details are not published.</desc>
+  <rect x="0.5" y="0.5" width="759" height="221" rx="14" fill="#ffffff"
+    stroke="#d1d9e0" />
+  <rect x="28" y="28" width="4" height="24" rx="2" fill="#ed2207" />
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif"
+    fill="#1f2328">
+    <text x="44" y="47" font-size="22"
+      font-weight="600">Languages &amp; technologies</text>
+    <text x="28" y="75" font-size="13"
+      fill="#59636e">CODE VOLUME / OWNED PROJECTS</text>
+    <text x="28" y="133" font-size="15"
+      fill="#59636e">First snapshot pending.</text>
+    <path d="M28 146H732" stroke="#d1d9e0" />
+    <text x="28" y="172" font-size="12"
+      fill="#59636e">DETECTED TECHNOLOGIES</text>
+    <text x="28" y="198" font-size="16"
+      font-weight="500">Awaiting project configuration</text>
+  </g>
+</svg>
