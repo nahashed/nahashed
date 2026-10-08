@@ -161,7 +161,7 @@ Deno.test("technology detection uses configuration, not descriptions or unknown 
   ], []);
 });
 
-Deno.test("paginates the complete inventory and rejects missing repositories or counts", async () => {
+Deno.test("paginates the inventory and checks available account counts", async () => {
   const api = new FakeAPI(
     Array.from({ length: 101 }, (_, i) => repo(`example-${i}`, i)),
   );
@@ -173,13 +173,14 @@ Deno.test("paginates the complete inventory and rejects missing repositories or 
         path.startsWith("/user/repos?") ? Promise.resolve([]) : api.get(path),
     })
   );
-  await rejects(() =>
-    collect({
+  equal(
+    await collect({
       get: (path) =>
         path === "/user"
           ? Promise.resolve({ login: "nahashed", public_repos: 0 })
-          : Promise.resolve([]),
-    })
+          : api.get(path),
+    }),
+    { languages: [], technologies: [], topics: [] },
   );
 });
 

@@ -44,11 +44,13 @@ The generator enumerates all accessible repositories owned by `nahashed`,
 including private ones. It excludes forks, archived repositories, zero-size
 repositories, repositories without language statistics, `test`, and this profile
 repository. It follows repository-list pagination. Any API, permission, or
-malformed-data error aborts the update before output is written. Both public and
-private account repository counts must match the full inventory before
-exclusions. If GitHub does not expose these counts, the generator fails rather
-than claiming complete coverage. **All repositories** is required. A token
-limited to selected repositories is unsupported.
+malformed-data error aborts the update before output is written. Public and
+private account repository counts are checked against the inventory before
+exclusions when available. Fine-grained tokens with the required minimal
+permissions do not expose the private account count. **All repositories** is
+therefore a required token setting that this API cannot independently verify. A
+token limited to selected repositories is unsupported. Pagination is always
+completed, and a failed request never causes a public-only or partial fallback.
 
 Language percentages sum GitHub's language byte counts across eligible
 repositories. They describe code volume, not expertise, time spent, or recent

@@ -212,9 +212,10 @@ async function repositories(api: API): Promise<Record<string, unknown>[]> {
       true,
     ]] as const
   ) {
+    if (key === "owned_private_repos" && account[key] === undefined) continue;
     if (!Number.isSafeInteger(account[key])) {
       throw new ProfileError(
-        "GitHub did not expose account repository counts. Full coverage cannot be verified.",
+        "GitHub returned an invalid repository count. Previous overview retained.",
       );
     }
     require(
