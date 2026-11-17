@@ -6,23 +6,23 @@
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#f0f3f6">
 <text x="44" y="47" font-size="22" font-weight="600">Languages &amp; technologies</text>
 <text x="28" y="75" font-size="13" fill="#9da7b3">CODE VOLUME / OWNED PROJECTS</text>
-<rect x="28.000" y="96" width="564.645" height="8" fill="#ed2207"/>
+<rect x="28.000" y="96" width="565.662" height="8" fill="#ed2207"/>
 <circle cx="33" cy="128" r="4" fill="#ed2207"/>
 <text x="48" y="133" font-size="15">TypeScript</text>
-<text x="732" y="133" text-anchor="end" font-size="15" fill="#9da7b3">80.2%</text>
-<rect x="592.645" y="96" width="91.221" height="8" fill="#db775d"/>
+<text x="732" y="133" text-anchor="end" font-size="15" fill="#9da7b3">80.3%</text>
+<rect x="593.662" y="96" width="90.555" height="8" fill="#db775d"/>
 <circle cx="33" cy="158" r="4" fill="#db775d"/>
 <text x="48" y="163" font-size="15">JavaScript</text>
-<text x="732" y="163" text-anchor="end" font-size="15" fill="#9da7b3">13.0%</text>
-<rect x="683.865" y="96" width="36.587" height="8" fill="#bb958b"/>
+<text x="732" y="163" text-anchor="end" font-size="15" fill="#9da7b3">12.9%</text>
+<rect x="684.217" y="96" width="36.320" height="8" fill="#bb958b"/>
 <circle cx="33" cy="188" r="4" fill="#bb958b"/>
 <text x="48" y="193" font-size="15">HTML</text>
 <text x="732" y="193" text-anchor="end" font-size="15" fill="#9da7b3">5.2%</text>
-<rect x="720.452" y="96" width="10.919" height="8" fill="#989fa9"/>
+<rect x="720.537" y="96" width="10.840" height="8" fill="#989fa9"/>
 <circle cx="33" cy="218" r="4" fill="#989fa9"/>
 <text x="48" y="223" font-size="15">CSS</text>
-<text x="732" y="223" text-anchor="end" font-size="15" fill="#9da7b3">1.6%</text>
-<rect x="731.372" y="96" width="0.628" height="8" fill="#69798b"/>
+<text x="732" y="223" text-anchor="end" font-size="15" fill="#9da7b3">1.5%</text>
+<rect x="731.376" y="96" width="0.624" height="8" fill="#69798b"/>
 <circle cx="33" cy="248" r="4" fill="#69798b"/>
 <text x="48" y="253" font-size="15">Shell</text>
 <text x="732" y="253" text-anchor="end" font-size="15" fill="#9da7b3">0.1%</text>
